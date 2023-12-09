@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+body {
+    background-color: rgb(248, 248, 248);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+}
+
+.singup_content {
+    width: 900px;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    padding: 75px 0px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 15px 16.83px 0.17px;
+}
+
+.signup {
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-left: 34px;
+    width: 350px;
+}
+
+.signup h2 {
+    font-size: 36px;
+    color: rgb(34, 34, 34);
+    font-weight: 700;
+    font-family: Poppins;
+    margin-bottom: 33px;
+}
+
+form {
+    width: 100%;
+}
+
+.form_group {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+label {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(34, 34, 34);
+}
+
+label img {
+    width: 18px;
+}
+
+.form_group input {
+    width: 100%;
+    padding: 6px 30px;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    display: block;
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    width: 2em;
+    padding: 0px;
+    margin: 0px;
+    font-size: 9px;
+    z-index: 11;
+    position: relative;
+}
+
+.form_group.checkbox_text label {
+    padding: 0px 30px;
+    font-family: Poppins;
+    font-size: 14px;
+    width: 365px;
+}
+
+.form_group.checkbox_text label a {
+    color: rgb(34, 34, 34);
+    text-decoration: underline;
+}
+
+.form_group.checkbox_text {
+    margin-top: 35px;
+}
+
+.form_submit {
+    display: inline-block;
+    padding: 15px 39px;
+    background: rgb(109, 171, 228);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-top: 25px;
+    cursor: pointer;
+    font-family: Poppins;
+    font-size: 13px;
+    width: auto;
+    transition: all 0.3s ease 0s;
+}
+
+.form_submit:hover {
+    background: rgb(66, 146, 220);
+}
+
+.singup_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup_img {
+    margin: 45px 55px;
+}
+
+.signup_img a {
+    font-size: 14px;
+    font-family: Poppins;
+    color: rgb(34, 34, 34);
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 51px;
+}
+
+section.signup_form {
+    margin: 150px 0px;
+}
+
+.signin_img {
+    margin-left: 110px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.signin_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.signin {
+    width: 360px;
+    margin-right: 90px;
+    margin-left: 80px;
+}
+
+.signin h2 {
+    margin-bottom: 33px;
+    font-size: 36px;
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+.signin_img a {
+    color: rgb(34, 34, 34);
+    text-decoration: underline;
+    font-family: Poppins;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    margin-top: 60px;
+}
+
+ul.socials {
+    display: flex;
+    gap: 15px;
+}
+
+.social_login {
+    display: flex;
+    align-items: center;
+    margin-top: 85px;
+}
+
+.social_login span {
+    font-family: Poppins;
+    font-size: 13px;
+    margin-right: 20px;
+}
+
+ul.socials li a i {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.socials li:first-child {
+    background-color: rgb(59, 89, 152);
+}
+
+.socials li:nth-child(2) {
+    background-color: rgb(29, 160, 242);
+}
+
+.socials li:last-child {
+    background-color: rgb(0, 119, 181);
+}
+
+section.signin_form {
+    margin-bottom: 100px;
+}
+.blog_post p {
+    text-align: center;
+    display: block;
+    margin-bottom: 55px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #222;
+}
+.blog_post a{
+    text-decoration: underline;
+}
+.blogs h2 {
+    text-align: center;
+    padding: 10px 0px;
+    background: #55efc4;
+    color: #222;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.blogs p {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 32px;
+    color: #444;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+.back p {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.back a {
+    text-decoration: underline;
+}
+.font_one {
+    font-family: 'Roboto', sans-serif !important;
+}
+.font_2 {
+    font-family: 'Poppins', sans-serif !important;
+}
+.font_3 {
+    font-family: 'Kalnia', serif !important;
+}
+.font_4 {
+    font-family: 'Oswald', sans-serif !important;
+}
+.font_5 {
+    font-family: 'Dhurjati', sans-serif !important;
+}
+.font_6 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+.font_7 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+.font_8 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+}
+.font_9 {
+    font-family: 'Times New Roman', Times, serif !important;
+}
